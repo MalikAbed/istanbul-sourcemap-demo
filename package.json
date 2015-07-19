@@ -1,0 +1,26 @@
+{
+  "name": "istanbul-sourcemap-demo",
+  "version": "1.0.0",
+  "description": "Demo of istanbul sourcemap branch from dd",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover index.js --transpiler babel",
+    "report": "istanbul report html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalikAbed/istanbul-sourcemap-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalikAbed/istanbul-sourcemap-demo/issues"
+  },
+  "homepage": "https://github.com/MalikAbed/istanbul-sourcemap-demo#readme",
+  "devDependencies": {
+    "babel-core": "^5.7.4",
+    "istanbul": "douglasduteil/istanbul#dd-source-map",
+    "istanbul-babel": "^1.0.1"
+  }
+}
