@@ -21,6 +21,11 @@
   "devDependencies": {
     "babel-core": "^5.7.4",
     "istanbul": "douglasduteil/istanbul#dd-source-map",
-    "istanbul-babel": "^1.0.1"
+    "istanbul-babel": "^1.0.1",
+    "karma": "^0.13.2",
+    "karma-babel-preprocessor": "^5.2.1",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.4.2",
+    "minimist": "^1.1.1"
   }
 }
