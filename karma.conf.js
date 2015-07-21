@@ -24,6 +24,11 @@ module.exports = function(config) {
     files: [
       'index.js'
     ],
+    'plugins' : [
+      'karma-mocha',
+      'karma-coverage',
+      'karma-chrome-launcher'
+    ],
     reporters: ['progress'],
     browsers: ['Chrome'],
     singleRun: false
